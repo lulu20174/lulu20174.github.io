@@ -17,6 +17,8 @@
     .workspace{display:grid;grid-template-columns:310px minmax(0,1fr);gap:16px;align-items:stretch}.panel{background:#1b2521;border:1px solid #334239;border-radius:20px;box-shadow:0 18px 60px #0002}.controls{padding:22px;display:flex;flex-direction:column;gap:23px}.panel-title{display:flex;align-items:center;justify-content:space-between;font-weight:800}.number{font:700 11px ui-monospace,monospace;color:#b6f195;background:#304536;padding:5px 7px;border-radius:5px}.upload{border:1px dashed #658270;background:#23352b;border-radius:14px;min-height:145px;display:flex;align-items:center;justify-content:center;flex-direction:column;text-align:center;gap:7px;padding:15px;transition:.2s}.upload.drag{background:#345341;border-color:#b5f294;transform:scale(1.01)}.upload strong{font-size:14px}.upload span{font-size:11px;color:#a1b4a5}.upload button,.action{border:0;border-radius:8px;background:#b9f398;color:#1b2a1b;font-weight:800;padding:9px 14px;margin-top:5px}.upload button:hover,.action:hover:not(:disabled){background:#d2ffb8}.section-label{font-size:11px;letter-spacing:.18em;color:#83958a;font-weight:800;border-bottom:1px solid #334239;padding-bottom:11px}.control-row{display:grid;gap:9px}.control-row label{display:flex;justify-content:space-between;font-size:13px;font-weight:650}.value{font:700 12px ui-monospace,monospace;color:#b9f398}input[type=range]{width:100%;accent-color:#b9f398;cursor:pointer}.hint{font-size:11px;color:#8e9e93;line-height:1.45}.switch-line{display:flex;justify-content:space-between;align-items:center;gap:10px;font-size:13px}.switch{position:relative;width:38px;height:22px;flex:none}.switch input{opacity:0;width:0;height:0}.switch span{position:absolute;inset:0;border-radius:30px;background:#425348;transition:.2s}.switch span:after{content:"";position:absolute;width:16px;height:16px;background:#c7d1c9;border-radius:50%;top:3px;left:3px;transition:.2s}.switch input:checked+span{background:#b8f195}.switch input:checked+span:after{background:#20321e;transform:translateX(16px)}.divider{height:1px;background:#334239}.action{width:100%;padding:13px;font-size:13px;margin:0}.fine{font-size:10px;color:#819287;text-align:center;line-height:1.5;margin:-12px 0 0}
     .preview{display:flex;flex-direction:column;min-height:580px;overflow:hidden}.preview-head{padding:17px 21px;display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid #334239;gap:10px}.preview-title{font-size:13px;font-weight:800}.tabs{display:flex;gap:3px;background:#111b16;padding:4px;border-radius:9px}.tabs button{border:0;background:none;color:#8d9d91;padding:7px 12px;border-radius:6px;font-size:11px;font-weight:750}.tabs button.active{background:#344b3a;color:#c7f3b5}.stage{flex:1;min-height:420px;display:grid;place-items:center;padding:28px;position:relative;background-color:#17221c;background-image:linear-gradient(45deg,#1e2c24 25%,transparent 25%),linear-gradient(-45deg,#1e2c24 25%,transparent 25%),linear-gradient(45deg,transparent 75%,#1e2c24 75%),linear-gradient(-45deg,transparent 75%,#1e2c24 75%);background-size:22px 22px;background-position:0 0,0 11px,11px -11px,-11px 0}.stage canvas{max-width:100%;max-height:62vh;object-fit:contain;image-rendering:pixelated;box-shadow:0 16px 50px #0007}.empty{text-align:center;max-width:300px;color:#a1b0a3}.empty-icon{width:68px;height:68px;margin:0 auto 19px;border:1px solid #55745a;border-radius:15px;display:grid;place-items:center;font:800 35px ui-monospace,monospace;color:#b9f398;background:#2b3d2e;box-shadow:8px 8px 0 #203024}.empty h2{color:#e8efdf;font-size:17px;margin:0 0 8px}.empty p{font-size:12px;line-height:1.7;margin:0}.preview-foot{border-top:1px solid #334239;padding:13px 21px;display:flex;justify-content:space-between;gap:15px;color:#91a094;font:11px ui-monospace,monospace}.footer{display:flex;justify-content:space-between;color:#718378;font-size:11px;margin-top:20px;gap:12px}
     .info{max-width:900px;margin:34px auto 0;color:#a8b8aa;line-height:1.7}.info h2{color:#ecf2e8;font-size:23px;letter-spacing:-.03em}.info h3{color:#d7e5d5;font-size:15px;margin-bottom:3px}.info p{font-size:13px;margin-top:4px}.info a,.footer a{color:#b9f398}.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.steps>div{background:#1b2521;border:1px solid #334239;border-radius:14px;padding:16px}.faq{margin-top:30px}@media(max-width:760px){.steps{grid-template-columns:1fr}}
+    .showcase{max-width:900px;margin:34px auto 0}.showcase-head{display:flex;align-items:end;justify-content:space-between;gap:18px;margin-bottom:14px}.showcase h2{font-size:23px;letter-spacing:-.03em;margin:0 0 6px}.showcase p{color:#a8b8aa;font-size:13px;line-height:1.65;margin:0}.sample-button{border:1px solid #94c77d;background:#29432e;color:#dbffca;border-radius:9px;font-weight:800;padding:11px 16px;white-space:nowrap}.sample-button:hover{background:#36583a}.sample-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}.sample-grid figure{margin:0;background:#1b2521;border:1px solid #334239;border-radius:14px;overflow:hidden}.sample-grid canvas{display:block;width:100%;height:auto;aspect-ratio:8/5;background:#293a32}.sample-grid figcaption{padding:12px 15px;font-size:12px;color:#d7e5d5;font-weight:750}.sample-note{margin-top:12px!important}
+    @media(max-width:760px){.showcase-head{align-items:start;flex-direction:column}.sample-grid{grid-template-columns:1fr}}
     @media(max-width:760px){.shell{padding:20px 14px}.hero{align-items:start}.pill,.top small{display:none}.workspace{grid-template-columns:1fr}.controls{gap:20px}.preview{min-height:450px}.stage{min-height:330px}.footer{flex-direction:column}.hero h1{font-size:40px}}
   </style>
 </head>
@@ -41,6 +43,9 @@
         <div class="preview-foot"><span id="filename">NO IMAGE LOADED</span><span id="dimensions">— × — PX</span></div>
       </section>
     </div>
+    <section class="showcase" aria-labelledby="sample-heading"><div class="showcase-head"><div><h2 id="sample-heading">See the pixel art effect</h2><p>This original illustration is transformed with the same controls as your uploaded image.</p></div><button id="trySample" class="sample-button" type="button">Try this sample ↗</button></div>
+      <div class="sample-grid"><figure><canvas id="sampleBefore" width="640" height="400" role="img" aria-label="Original illustration of a sunset over a lake"></canvas><figcaption>Original illustration</figcaption></figure><figure><canvas id="sampleAfter" width="640" height="400" role="img" aria-label="Pixel art version of the sunset illustration"></canvas><figcaption>Pixel art · 18 px blocks · 8 color levels</figcaption></figure></div>
+      <p class="sample-note">Click “Try this sample” to adjust the pixel size and palette yourself. The illustration and conversion are generated locally in your browser.</p></section>
     <section class="info" aria-labelledby="how"><h2 id="how">How to make pixel art from a photo</h2>
       <div class="steps"><div><h3>1. Choose an image</h3><p>Drop a photo or illustration onto the upload area, or select one from your device.</p></div>
       <div><h3>2. Set your style</h3><p>Increase pixel size for chunkier blocks. Reduce color levels for a limited palette. Try contrast and warm tones.</p></div>
@@ -57,28 +62,45 @@
     let image=null,filename='pixel-art',view='result',url=null,timer;
     const controls=['size','colors','contrast','warm'];
     function updateLabels(){ $('sizeValue').textContent=$('size').value+' px';$('colorsValue').textContent=$('colors').value+' levels'; }
-    function render(){
-      if(!image)return;
-      const w=source.width,h=source.height;canvas.width=w;canvas.height=h;
-      ctx.clearRect(0,0,w,h);
-      if(view==='original'){ctx.drawImage(source,0,0);return;}
-      const block=Number($('size').value),levels=Number($('colors').value);
+    function pixelate(input,target,block,levels,contrast,warm){
+      const w=input.width,h=input.height;target.width=w;target.height=h;
+      const output=target.getContext('2d',{willReadFrequently:true});
       const sw=Math.max(1,Math.ceil(w/block)),sh=Math.max(1,Math.ceil(h/block));
       const tiny=document.createElement('canvas');tiny.width=sw;tiny.height=sh;
       const t=tiny.getContext('2d',{willReadFrequently:true});
-      t.imageSmoothingEnabled=true;t.imageSmoothingQuality='high';t.drawImage(source,0,0,sw,sh);
+      t.imageSmoothingEnabled=true;t.imageSmoothingQuality='high';t.drawImage(input,0,0,sw,sh);
       const pixels=t.getImageData(0,0,sw,sh),data=pixels.data;
       for(let i=0;i<data.length;i+=4){
         for(let c=0;c<3;c++){
           let v=data[i+c];
-          if($('contrast').checked)v=(v-128)*1.22+128;
-          if($('warm').checked)v+=c===0?12:c===1?3:-13;
+          if(contrast)v=(v-128)*1.22+128;
+          if(warm)v+=c===0?12:c===1?3:-13;
           v=Math.max(0,Math.min(255,v));
           data[i+c]=Math.round(Math.round(v*(levels-1)/255)*255/(levels-1));
         }
       }
-      t.putImageData(pixels,0,0);ctx.imageSmoothingEnabled=false;ctx.drawImage(tiny,0,0,w,h);
+      t.putImageData(pixels,0,0);output.imageSmoothingEnabled=false;output.drawImage(tiny,0,0,w,h);
     }
+    function render(){
+      if(!image)return;
+      if(view==='original'){canvas.width=source.width;canvas.height=source.height;ctx.drawImage(source,0,0);return;}
+      pixelate(source,canvas,Number($('size').value),Number($('colors').value),$('contrast').checked,$('warm').checked);
+    }
+    function drawSample(target){
+      target.width=640;target.height=400;const c=target.getContext('2d');
+      const sky=c.createLinearGradient(0,0,0,310);sky.addColorStop(0,'#23445d');sky.addColorStop(.55,'#dc8f73');sky.addColorStop(1,'#f7c58e');c.fillStyle=sky;c.fillRect(0,0,640,400);
+      c.fillStyle='#ffe0a1';c.beginPath();c.arc(435,162,56,0,Math.PI*2);c.fill();
+      c.fillStyle='#ecb79b';[[95,78,76,18],[225,126,60,12],[542,67,54,13]].forEach(([x,y,rx,ry])=>{c.beginPath();c.ellipse(x,y,rx,ry,0,0,Math.PI*2);c.fill()});
+      c.fillStyle='#688478';c.beginPath();c.moveTo(0,258);c.lineTo(98,175);c.lineTo(209,261);c.lineTo(333,190);c.lineTo(496,274);c.lineTo(640,190);c.lineTo(640,400);c.lineTo(0,400);c.fill();
+      c.fillStyle='#456c69';c.beginPath();c.moveTo(0,293);c.lineTo(130,224);c.lineTo(256,292);c.lineTo(387,240);c.lineTo(559,299);c.lineTo(640,258);c.lineTo(640,400);c.lineTo(0,400);c.fill();
+      const water=c.createLinearGradient(0,280,0,400);water.addColorStop(0,'#6eaaa0');water.addColorStop(1,'#264e62');c.fillStyle=water;c.fillRect(0,286,640,114);
+      c.fillStyle='#f6c5a0';for(let y=300;y<390;y+=13){let width=(390-y)*.72+24;c.fillRect(435-width/2,y,width,3)}
+      c.fillStyle='#294c4b';c.beginPath();c.moveTo(0,321);c.lineTo(112,286);c.lineTo(240,317);c.lineTo(0,354);c.fill();c.beginPath();c.moveTo(640,315);c.lineTo(530,275);c.lineTo(495,323);c.lineTo(640,354);c.fill();
+      function pine(x,y,s){c.fillStyle='#304b45';c.fillRect(x-s*.08,y-s*.15,s*.16,s*.52);c.fillStyle='#1c5149';for(let i=0;i<3;i++){c.beginPath();c.moveTo(x,y-s*(.9-i*.22));c.lineTo(x-s*(.31-i*.04),y-s*(.23-i*.18));c.lineTo(x+s*(.31-i*.04),y-s*(.23-i*.18));c.fill()}}
+      [[45,290,105],[87,296,75],[574,295,82],[608,298,120],[545,298,53]].forEach(v=>pine(...v));
+      c.fillStyle='#e9c093';c.fillRect(205,251,54,37);c.fillStyle='#5e5c5e';c.beginPath();c.moveTo(197,253);c.lineTo(232,226);c.lineTo(268,253);c.fill();c.fillStyle='#365d5a';c.fillRect(228,267,12,20);
+    }
+    function loadSample(){drawSample(source);image={sample:true};filename='pixel-lab-sunset';$('empty').hidden=true;canvas.hidden=false;$('download').disabled=false;$('filename').textContent='PIXEL LAB SAMPLE';$('dimensions').textContent='640 × 400 PX';setView('result');document.querySelector('.workspace').scrollIntoView({behavior:'smooth',block:'start'});}
     function loadFile(file){
       if(!file)return;
       if(!file.type.startsWith('image/')){alert('Please choose an image file.');return;}
@@ -101,6 +123,8 @@
     controls.forEach(id=>$(id).addEventListener('input',()=>{updateLabels();clearTimeout(timer);timer=setTimeout(render,35);}));
     $('resultTab').onclick=()=>setView('result');$('originalTab').onclick=()=>setView('original');
     $('download').onclick=()=>{if(!image)return;const previous=view;view='result';render();canvas.toBlob(blob=>{if(blob){const a=document.createElement('a'),downloadUrl=URL.createObjectURL(blob);a.href=downloadUrl;a.download=filename+'-pixel.png';a.click();setTimeout(()=>URL.revokeObjectURL(downloadUrl),1000);}view=previous;render();},'image/png');};
+    $('trySample').onclick=loadSample;
+    drawSample($('sampleBefore'));pixelate($('sampleBefore'),$('sampleAfter'),18,8,false,false);
     updateLabels();
   </script>
 </body>
